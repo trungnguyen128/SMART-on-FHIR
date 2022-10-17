@@ -1,0 +1,30 @@
+.patient-table {
+  margin: 40px auto;
+  border-spacing: 0;
+  border: 1px solid lightgrey;
+}
+
+thead {
+  color: #999;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+td {
+  padding: 10px 40px;
+}
+
+td:nth-child(2) {
+  text-transform: capitalize;
+}
+
+.table-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 40px;
+}
